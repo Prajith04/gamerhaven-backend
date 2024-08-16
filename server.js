@@ -17,12 +17,19 @@ app.get('/users', (req, res) => {
 
 // Signup route
 app.post('/signup', async (req, res) => {
+    const user = users.find(user => user.name === req.body.name);
     try {
-        const hashpass = await bcrypt.hash(req.body.password, 10);
+        
+        if(user==null){
+            const hashpass = await bcrypt.hash(req.body.password, 10);
         const user = { name: req.body.name, password: hashpass, email: req.body.email };
         users.push(user);
-        res.status(201).send('User created');
+        res.json({message:true})
         console.log('User created');
+        }else{
+            res.json({message:'User already exists'})
+        }
+        
     } catch {
         res.status(500).send('Error creating user');
     }
@@ -33,7 +40,7 @@ app.post('/login', async (req, res) => {
     // Find user by name
     const user = users.find(user => user.name === req.body.name);
     if (user == null) {
-        return res.status(400).json({ message: 'Cannot find user' }); // User not found
+        return res.json({ message: 'No user exists' }); // User not found
     }
 
     try {
@@ -45,10 +52,10 @@ app.post('/login', async (req, res) => {
             console.log('Login successful');
         } else {
             // Password is incorrect
-            res.status(403).json({ message: 'Not allowed' });
+            res.json({ message: 'Incorrect password' });
         }
     } catch {
-        res.status(500).json({ message: 'Error during authentication' });
+        res.json({ message: 'Error during authentication' });
     }
 });
 

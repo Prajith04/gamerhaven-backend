@@ -91,6 +91,337 @@ const description= {
                     'OS': 'Windows XP/Vista/7/8/10'
                 }
             },
+            gow1:{
+                'name': 'God of War',
+                'description': 'God of War is an action-adventure game developed by Santa Monica Studio and published by Sony Computer Entertainment. It is the first game in the God of War series and was released in 2005.',
+                'system_requirements': {
+                    'Processor': 'Intel Pentium 4 2.4 GHz',
+                    'Memory': '1 GB',
+                    'Graphics': 'NVIDIA GeForce 6600',
+                    'OS': 'Windows XP/Vista/7/8/10'
+                }
+            },
+            gow2:{
+                'name': 'God of War II',
+                'description': 'God of War II is an action-adventure game developed by Santa Monica Studio and published by Sony Computer Entertainment. It is the second game in the God of War series and was released in 2007.',
+                'system_requirements': {
+                    'Processor': 'Intel Core 2 Duo 2.2 GHz',
+                    'Memory': '2 GB',
+                    'Graphics': 'NVIDIA GeForce 8600 GT',
+                    'OS': 'Windows XP/Vista/7/8/10'
+                }
+            },
+            gow3:{
+                'name': 'God of War III',
+                'description': 'God of War III is an action-adventure game developed by Santa Monica Studio and published by Sony Computer Entertainment. It is the third game in the God of War series and was released in 2010.',
+                'system_requirements': {
+                    'Processor': 'Intel Core 2 Duo 2.4 GHz',
+                    'Memory': '4 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 260',
+                    'OS': 'Windows XP/Vista/7/8/10'
+                }
+            },
+            gow4:{
+                'name': 'God of War ragnarok',
+                'description': 'God of War Ragnarok is an upcoming action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment. It is the sequel to the 2018 game God of War.',
+                'system_requirements': {
+                    'Processor': 'Intel Core i5-2500K',
+                    'Memory': '8 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 760',
+                    'OS': 'Windows 7/8/10'
+                }
+            },
+            bt1:{
+                'name': 'Battlefield 1',
+                'description': 'Battlefield 1 is a first-person shooter game developed by EA DICE and published by Electronic Arts. It is set during World War I and was released in 2016.',
+                'system_requirements': {
+                    'Processor': 'Intel Core i5 6600K',
+                    'Memory': '8 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 660',
+                    'OS': 'Windows 7/8/10'
+                }
+            },
+            bt2:{
+                'name': 'Battlefield 2',
+                'description': 'Battlefield 2 is a first-person shooter game developed by EA DICE and published by Electronic Arts. It is set in the near future and was released in 2005.',
+                'system_requirements': {
+                    'Processor': 'Intel Pentium 4 1.7 GHz',
+                    'Memory': '512 MB',
+                    'Graphics': 'NVIDIA GeForce FX 5700',
+                    'OS': 'Windows XP/Vista/7/8/10'
+                }
+            },
+            bt5:{
+                'name': 'Battlefield 5',
+                'description': 'Battlefield 5 is a first-person shooter game developed by EA DICE and published by Electronic Arts. It is set during World War II and was released in 2018.',
+                'system_requirements': {
+                    'Processor': 'Intel Core i5 6600K',
+                    'Memory': '8 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 660',
+                    'OS': 'Windows 7/8/10'
+                }
+            },
+            bt2042:{
+                'name': 'Battlefield 2042',
+                'description': 'Battlefield 2042 is an upcoming first-person shooter game developed by EA DICE and published by Electronic Arts. It is set in the near future and is the seventeenth installment in the Battlefield series.',
+                'system_requirements': {
+                    'Processor': 'Intel Core i5 6600K',
+                    'Memory': '16 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 1060',
+                    'OS': 'Windows 10'
+                }
+            },
+            sm1:{
+                'name': "Marvel's Spider-Man ",
+                'description': " Marvel's Spider-Man is a 2018 action-adventure game developed by Insomniac Games and published by Sony Interactive Entertainment.",  
+                'system_requirements': {
+                    'Processor': 'Intel Core i5-2500K',
+                    'Memory': '8 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 660',
+                    'OS': 'Windows 7/8/10'
+                }
+            },
+            sm2:{
+                'name': "Marvel's Spiderman 2",
+                'description': "Marvel's Spider-Man 2 is a 2023 action-adventure game developed by Insomniac Games and published by Sony Interactive Entertainment.",
+                'system_requirements': {
+                    'Processor': 'Intel Core i5-2500K',
+                    'Memory': '8 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 660',
+                    'OS': 'Windows 7/8/10'
+                }
+            },
+            sm3:{
+                'name': "Marvel's Spiderman 3",
+                'description': "Marvel Spider-Man 3 is a 2007 action-adventure game based on the 2007 film of the same name. The game is the sequel to 2004's Spider-Man 2, itself based on the 2004 film of the same name.",
+                'system_requirements': {
+                    'Processor': 'Intel Core i5-2500K',
+                    'Memory': '8 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 660',
+                    'OS': 'Windows 7/8/10'
+                }
+            },
+            som:{
+                'name': 'Shadow of Mordor',
+                'description': 'Middle-earth: Shadow of Mordor is an open-world action-adventure game developed by Monolith Productions and published by Warner Bros. Interactive Entertainment. It is set in J.R.R. Tolkien\'s Middle-earth and was released in 2014.',
+                'system_requirements': {
+                    'Processor': 'Intel Core i5-750',
+                    'Memory': '4 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 460',
+                    'OS': 'Windows 7/8/10'
+                }
+            },
+            sow:{
+                'name': 'Shadow of War',
+                'description': 'Middle-earth: Shadow of War is an open-world action-adventure game developed by Monolith Productions and published by Warner Bros. Interactive Entertainment. It is the sequel to Middle-earth: Shadow of Mordor and was released in 2017.',
+                'system_requirements': {
+                    'Processor': 'Intel Core i5-2550K',
+                    'Memory': '8 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 670',
+                    'OS': 'Windows 7/8/10'
+                }
+            },
+            ac1:{
+                'name': 'Assassin\'s Creed',
+                'description': 'Assassin\'s Creed is an action-adventure game developed by Ubisoft Montreal and published by Ubisoft. It is the first game in the Assassin\'s Creed series and was released in 2007.',
+                'system_requirements': {
+                    'Processor': 'Intel Core 2 Duo 2.6 GHz',
+                    'Memory': '2 GB',
+                    'Graphics': 'NVIDIA GeForce 8800 GT',
+                    'OS': 'Windows XP/Vista/7/8/10'
+                }
+            },
+            ac2:{
+                'name': "Assassin's Creed II",
+                'description': "Assassin's Creed II is an action-adventure game developed by Ubisoft Montreal and published by Ubisoft. It is the second game in the Assassin's Creed series and was released in 2009.",
+                'system_requirements': {
+                    'Processor': 'Intel Core 2 Duo E6700 2.6 GHz',
+                    'Memory': '2 GB',
+                    'Graphics': 'NVIDIA GeForce 8800 GT',
+                    'OS': 'Windows XP/Vista/7/8/10'
+                }
+            },
+            ac3:{
+                'name': "Assassin's Creed III",
+                'description': "Assassin's Creed III is an action-adventure game developed by Ubisoft Montreal and published by Ubisoft. It is the third game in the Assassin's Creed series and was released in 2012.",
+                'system_requirements': {
+                    'Processor': 'Intel Core 2 Duo E6700 2.6 GHz',
+                    'Memory': '4 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 260',
+                    'OS': 'Windows Vista/7/8/10'
+                }
+            },
+            acv:{
+                'name': "Assassin's Creed Valhalla",
+                'description': "Assassin's Creed Valhalla is an action role-playing game developed by Ubisoft Montreal and published by Ubisoft. It is the twelfth major installment in the Assassin's Creed series and was released in 2020.",
+                'system_requirements': {
+                    'Processor': 'Intel Core i5-4460',
+                    'Memory': '8 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 960',
+                    'OS': 'Windows 10 (64-bit)'
+                }
+            },
+            ds:{
+                'name': 'Dark Souls',
+                'description': 'Dark Souls is an action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment. It is the first game in the Dark Souls series and was released in 2011.',
+                'system_requirements': {
+                    'Processor': 'Intel Core 2 Duo E6850',
+                    'Memory': '2 GB',
+                    'Graphics': 'NVIDIA GeForce 9600 GT',
+                    'OS': 'Windows XP/Vista/7/8/10'
+                }
+            },
+            bb:{
+                'name': 'Bloodborne',
+                'description': 'Bloodborne is an action role-playing game developed by FromSoftware and published by Sony Computer Entertainment. It is the first game in the Bloodborne series and was released in 2015.',
+                'system_requirements': {
+                    'Processor': 'Intel Core i3-2100',
+                    'Memory': '4 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 750 Ti',
+                    'OS': 'Windows 7/8/10'
+                }
+            },
+            sekiro:{
+                'name': 'Sekiro: Shadows Die Twice',
+                'description': 'Sekiro: Shadows Die Twice is an action-adventure game developed by FromSoftware and published by Activision. It was released in 2019 and is set in a fictionalized late 1500s Sengoku period Japan.',
+                'system_requirements': {
+                    'Processor': 'Intel Core i3-2100',
+                    'Memory': '4 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 760',
+                    'OS': 'Windows 7/8/10'
+                }
+            },
+            er:{
+                'name': 'Elden Ring',
+                'description': 'Elden Ring is an upcoming action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment. It is a collaboration between game director Hidetaka Miyazaki and fantasy novelist George R. R. Martin.',
+                'system_requirements': {
+                    'Processor': 'Intel Core i5-2500K',
+                    'Memory': '8 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 960',
+                    'OS': 'Windows 7/8/10'
+                }
+            },
+            re1:{
+                'name': 'Resident Evil',
+                'description': 'Resident Evil is a survival horror game developed by Capcom. It is the first game in the Resident Evil series and was released in 1996.',
+                'system_requirements': {
+                    'Processor': 'Intel Core i5-4460',
+                    'Memory': '8 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 960',
+                    'OS': 'Windows 10 (64-bit)'
+                }
+            },
+            re2:{
+                'name': 'Resident Evil 2',
+                'description': 'Resident Evil 2 is a survival horror game developed by Capcom. It is a remake of the 1998 game Resident Evil 2 and was released in 2019.',
+                'system_requirements': {
+                    'Processor': 'Intel Core i5-4460',
+                    'Memory': '8 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 960',
+                    'OS': 'Windows 10 (64-bit)'
+                }
+            },
+            re3:{
+                'name': 'Resident Evil 3',
+                'description': 'Resident Evil 3 is a survival horror game developed by Capcom. It is a remake of the 1999 game Resident Evil 3: Nemesis and was released in 2020.',
+                'system_requirements': {
+                    'Processor': 'Intel Core i5-4460',
+                    'Memory': '8 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 960',
+                    'OS': 'Windows 10 (64-bit)'
+                }
+            },
+            re4:{
+                'name': 'Resident Evil 4',
+                'description': 'Resident Evil 4 is a survival horror game developed by Capcom. It is the fourth main installment in the Resident Evil series and was released in 2005.',
+                'system_requirements': {
+                    'Processor': 'Intel Core i5-4460',
+                    'Memory': '8 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 960',
+                    'OS': 'Windows 10 (64-bit)'
+                }
+            },
+            cod1:{
+                'name': 'Call of Duty',
+                'description': 'Call of Duty is a first-person shooter game developed by Infinity Ward and published by Activision. It is the first game in the Call of Duty series and was released in 2003.',
+                'system_requirements': {
+                    'Processor': 'Intel Pentium III 600 MHz',
+                    'Memory': '128 MB',
+                    'Graphics': 'NVIDIA GeForce 256',
+                    'OS': 'Windows 98/2000/ME/XP'
+                }
+            },
+            cod2:{
+                'name': 'Call of Duty 2',
+                'description': 'Call of Duty 2 is a first-person shooter game developed by Infinity Ward and published by Activision. It is the second game in the Call of Duty series and was released in 2005.',
+                'system_requirements': {
+                    'Processor': 'Intel Pentium 4 1.4 GHz',
+                    'Memory': '256 MB',
+                    'Graphics': 'NVIDIA GeForce 6600',
+                    'OS': 'Windows 2000/XP'
+                }
+            },
+            cod3:{
+                'name': 'Call of Duty 3',
+                'description': 'Call of Duty 3 is a first-person shooter game developed by Treyarch and published by Activision. It is the third game in the Call of Duty series and was released in 2006.',
+                'system_requirements': {
+                    'Processor': 'Intel Pentium 4 2.0 GHz',
+                    'Memory': '512 MB',
+                    'Graphics': 'NVIDIA GeForce 6600',
+                    'OS': 'Windows XP/Vista'
+                }
+            },
+            cod4:{
+                'name': 'Call of Duty 4: Modern Warfare',
+                'description': 'Call of Duty 4: Modern Warfare is a first-person shooter game developed by Infinity Ward and published by Activision. It is the fourth game in the Call of Duty series and was released in 2007.',
+                'system_requirements': {
+                    'Processor': 'Intel Pentium 4 2.4 GHz',
+                    'Memory': '512 MB',
+                    'Graphics': 'NVIDIA GeForce 6600',
+                    'OS': 'Windows XP/Vista'
+                }
+            },
+            fo:{
+                'name': 'Fallout',
+                'description': 'Fallout is a post-apocalyptic role-playing game developed by Interplay Entertainment. It is the first game in the Fallout series and was released in 1997.',
+                'system_requirements': {
+                    'Processor': 'Intel Pentium 90 MHz',
+                    'Memory': '16 MB',
+                    'Graphics': 'SVGA',
+                    'OS': 'DOS/Windows'
+                }
+            },
+            fo3:{
+                'name': 'Fallout 3',
+                'description': 'Fallout 3 is a post-apocalyptic role-playing game developed by Bethesda Game Studios and published by Bethesda Softworks. It is the third game in the Fallout series and was released in 2008.',
+                'system_requirements': {
+                    'Processor': 'Intel Core 2 Duo 2.4 GHz',
+                    'Memory': '2 GB',
+                    'Graphics': 'NVIDIA GeForce 6800',
+                    'OS': 'Windows XP/Vista'
+                }
+            },
+            fo4:{
+                'name': 'Fallout 4',
+                'description': 'Fallout 4 is a post-apocalyptic role-playing game developed by Bethesda Game Studios and published by Bethesda Softworks. It is the fourth game in the Fallout series and was released in 2015.',
+                'system_requirements': {
+                    'Processor': 'Intel Core i5-2300',
+                    'Memory': '8 GB',
+                    'Graphics': 'NVIDIA GeForce GTX 550 Ti',
+                    'OS': 'Windows 7/8/10'
+                }
+            },
+            fo76:{
+                'name': 'Fallout 76',
+                'description': 'Fallout 76 is an online action role-playing game developed by Bethesda Game Studios and published by Bethesda Softworks. It is the ninth game in the Fallout series and was released in 2018.',
+                'system_requirements': {
+                    'Processor': 'Intel Core i7-4790',
+                    'Memory': '8 GB',
+                    'Graphics': 'NVIDIA GTX 970',
+                    'OS': 'Windows 7/8/10'
+                }
+            }
+    
 };
 
 
